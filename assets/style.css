@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: var(--font);
+} 
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(fonts/Figtree-VariableFont_wght.ttf)
+    format('Truetype') ;
+}
+
+@media screen and (max-width:375px) {
+    .carta {
+        width: 335px;
+        height: 450px;   
+    }
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+    --font: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: var(--yellow); 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.carta {
+    width: 375px;
+    height: 500px;
+    background: var(--white);
+    border-radius: 4%;
+    border: 1.5px solid var(--black);
+    box-shadow: 0.5em 0.5em var(--black);
+}
+
+.carta-imagem {
+    padding: 20px 20px 0 20px;
+}
+
+#imagem {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.data {
+    padding: 20px 15px 0 20px;
+}
+
+#leitura {
+    font-size: 0.9rem;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: var(--yellow);
+    padding: 6px;
+    text-align: center;
+}
+
+#data {
+    font-size: 0.8rem;
+    margin-top: 15px;   
+}
+
+.informação {
+    height: 40%;
+    padding: 20px;
+}
+
+.titulo {
+    height: 25%;
+    font-size: 1.5rem;
+}
+
+.titulo:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+#descrição {
+    color: var(--grey);
+    height: 50%;
+    font-size: 1rem;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+}
+
+#autor_imagem {
+    height: 30px;
+    width: 30px;
+}
+
+#autor_nome {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+
+
+    
+
