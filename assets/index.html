@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+    margin:0px;
+    padding:0px;
+    } 
+    body{
+      background-color: rgba(255, 255, 0, 0.815);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: auto;
+    }
+    main{
+      background-color: white;
+      padding: 20px;
+      margin: auto;
+      max-width: 370px;
+      border-radius: 20px;
+      box-shadow: 7px 7px 2px black;
+    }
+    main img.principal{
+      height: auto;
+      display: block;
+      max-width: 100%;
+      margin: 0 auto 20px;
+      border-radius: 10px;
+    }
+    span{
+      background-color: rgba(255, 255, 0, 0.815);
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 3px;
+    }
+    h1{
+      color: rgb(255, 255, 0);
+    }
+    main img.greg{
+      float: left;
+      margin-right: 10px;
+    }
+    p.textgreg{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 6vh;
+    }
+    h1:hover{
+      color: black;
+    }
+
+  </style>
+
+</head>
+<body>
+  <main>
+    <img src="images/illustration-article.svg" alt="imagem" class="principal">
+    <p><span>Learning</span></p>
+    <br>
+    <p>Published 21 Dec 2023</p>
+    <br>
+    <h1>HTML & CSS foundations</h1>
+    <br>
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <br>
+    <img src="images/image-avatar.webp" alt="avatar" class="greg"> 
+    <p class="textgreg"> <strong>Greg Hooper</strong></p>
+  </main>
+  
+</body>
+</html>
